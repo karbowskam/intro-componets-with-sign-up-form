@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Intro component with sign-up form</title>
   </head>
-  <body>
-    <h1>Hello world!</h1>
+  <body class="body">
+    <h1 class="header">Learn to code by watching others</h1>
+    <p class="header__paragraph">
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+      understanding how developers think is invaluable.
+    </p>
+    <div class="blue-box">
+      <p class="blue-box__paragraph"><span class="blue-box__paragraph--bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+    </div>
+    <div class="form">
+      <input class="form__input" required type="text" placeholder="First Name" id="first-name" name="first-name" />
+      <input class="form__input" required type="text" placeholder="Last Name" id="last-name" name="last-name" />
+      <input class="form__input" required type="text" placeholder="Email Address" id="email-adress" name="email-adress" />
+      <input class="form__input" required type="password" placeholder="Password" id="password" name="password" />
+      <button class="form__button">Claim your free trial</button>
+      <p class="form__confirm">By clicking the button, you are agreeing to our <a class="form__confirm--link" href="https://en.wikipedia.org/wiki/Terms_of_service">Terms and Services</a></p>
+    </div>
   </body>
 </html>
