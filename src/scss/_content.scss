@@ -88,5 +88,20 @@
       background: hsla(154, 59%, 51%, 0.829); ;
     }
   }
+
+  &__confirm {
+    font-family: "medium-font", Arial, Helvetica, sans-serif;
+    color: $grayish-blue;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 40px;
+    padding-bottom: 20px;
+
+    &--link {
+      text-decoration: none;
+      color: $red;
+      font-family: "bold-font", Arial, Helvetica, sans-serif;
+    }
   }
 }
