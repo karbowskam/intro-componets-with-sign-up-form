@@ -69,6 +69,7 @@
     padding-left: 15px;
     border-radius: 5px;
     border: 1px $grayish-blue solid;
+
     &--mail-js {
       display: block;
       color: $red;
@@ -78,6 +79,7 @@
       font-family: "regular-font", Arial, Helvetica, sans-serif;
       font-style: italic;
     }
+
     &--name-js {
       display: block;
       color: $red;
@@ -87,6 +89,7 @@
       font-family: "regular-font", Arial, Helvetica, sans-serif;
       font-style: italic;
     }
+
     &--lastname-js {
       display: block;
       color: $red;
@@ -96,6 +99,7 @@
       font-family: "regular-font", Arial, Helvetica, sans-serif;
       font-style: italic;
     }
+
     &--password-js {
       display: block;
       color: $red;
@@ -105,6 +109,20 @@
       font-family: "regular-font", Arial, Helvetica, sans-serif;
       font-style: italic;
     }
+
+    &--danger {
+      border: 1px $red solid;
+      color: $red;
+      background: url(../img/icon-error.svg) no-repeat scroll 235px 15px;
+
+    }
+
+    &--danger::placeholder {
+      color: transparent;
+
+    }
+  }
+
   &__button {
     width: 280px;
     height: 55px;
