@@ -96,6 +96,15 @@
       font-family: "regular-font", Arial, Helvetica, sans-serif;
       font-style: italic;
     }
+    &--password-js {
+      display: block;
+      color: $red;
+      font-size: 10px;
+      text-align: right;
+      margin-right: 28px;
+      font-family: "regular-font", Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
   &__button {
     width: 280px;
     height: 55px;
