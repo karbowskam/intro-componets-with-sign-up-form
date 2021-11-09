@@ -69,6 +69,15 @@
     padding-left: 15px;
     border-radius: 5px;
     border: 1px $grayish-blue solid;
+    &--mail-js {
+      display: block;
+      color: $red;
+      font-size: 10px;
+      text-align: right;
+      margin-right: 28px;
+      font-family: "regular-font", Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
     &--name-js {
       display: block;
       color: $red;
