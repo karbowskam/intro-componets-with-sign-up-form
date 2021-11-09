@@ -48,3 +48,26 @@
     }
   }
 }
+
+.form {
+  margin: 0 auto 80px;
+  padding-top: 5px;
+  width: 330px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 9px 0 -1px rgba(66, 68, 90, 0.21);
+
+  &__input {
+    display: block;
+    margin: 17px auto 5px;
+    width: 280px;
+    height: 55px;
+    font-family: "semibold-font", Arial, Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px $grayish-blue solid;
+  }
+}
