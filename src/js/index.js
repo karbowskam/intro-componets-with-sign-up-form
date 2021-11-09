@@ -62,7 +62,7 @@ newItemForm[0].addEventListener("submit", (event) => {
 
 var btnClear = document.getElementsByClassName("form");
 var inputs = document.getElementsByClassName("form__input");
- 
+
 btnClear.addEventListener('click', () => {
     inputs.forEach(input =>  input.value = '');
 });

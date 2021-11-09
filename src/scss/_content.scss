@@ -1,0 +1,161 @@
+.body {
+  color: white;
+  background-color: $red;
+  background-image: url(../img/bg-intro-mobile.png);
+  min-width: 375px;
+}
+
+.main {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "bold", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  margin: 55px 47px 0;
+  text-align: center;
+
+  &__paragraph {
+    margin: 0 auto 55px;
+    padding: 10px 23px;
+    font-size: 16px;
+    font-family: "medium-font", Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 27px;
+  }
+}
+
+.blue-box {
+  margin: 30px auto;
+  width: 330px;
+  height: 90px;
+  background-color: $blue;
+  border-radius: 10px;
+  box-shadow: 0 9px 0 -1px rgba(66, 68, 90, 0.21);
+
+  &__paragraph {
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 16px;
+    font-family: "regular-font", Arial, Helvetica, sans-serif;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+
+    &--bold {
+      font-family: "semibold-font", Arial, Helvetica, sans-serif;
+    }
+  }
+}
+
+.form {
+  margin: 0 auto 80px;
+  padding-top: 5px;
+  width: 330px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 9px 0 -1px rgba(66, 68, 90, 0.21);
+
+  &__input {
+    display: block;
+    margin: 17px auto 5px;
+    width: 280px;
+    height: 55px;
+    font-family: "semibold-font", Arial, Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px $grayish-blue solid;
+
+    &--mail-js {
+      display: block;
+      color: $red;
+      font-size: 10px;
+      text-align: right;
+      margin-right: 28px;
+      font-family: "regular-font", Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
+
+    &--name-js {
+      display: block;
+      color: $red;
+      font-size: 10px;
+      text-align: right;
+      margin-right: 28px;
+      font-family: "regular-font", Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
+
+    &--lastname-js {
+      display: block;
+      color: $red;
+      font-size: 10px;
+      text-align: right;
+      margin-right: 28px;
+      font-family: "regular-font", Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
+
+    &--password-js {
+      display: block;
+      color: $red;
+      font-size: 10px;
+      text-align: right;
+      margin-right: 28px;
+      font-family: "regular-font", Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
+
+    &--danger {
+      border: 1px $red solid;
+      color: $red;
+      background: url(../img/icon-error.svg) no-repeat scroll 235px 15px;
+
+    }
+
+    &--danger::placeholder {
+      color: transparent;
+
+    }
+  }
+
+  &__button {
+    width: 280px;
+    height: 55px;
+    background-color: $green;
+    border-style: none;
+    display: block;
+    margin: 17px auto 5px;
+    border-radius: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "medium-font", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 6px 0 -1px rgb(49, 175, 122);
+    cursor: pointer;
+
+    &:hover {
+      background: hsla(154, 59%, 51%, 0.829); ;
+    }
+  }
+
+  &__confirm {
+    font-family: "medium-font", Arial, Helvetica, sans-serif;
+    color: $grayish-blue;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0 40px;
+    padding-bottom: 20px;
+
+    &--link {
+      text-decoration: none;
+      color: $red;
+      font-family: "bold-font", Arial, Helvetica, sans-serif;
+    }
+  }
+}
