@@ -114,12 +114,10 @@
       border: 1px $red solid;
       color: $red;
       background: url(../img/icon-error.svg) no-repeat scroll 235px 15px;
-
     }
 
     &--danger::placeholder {
       color: transparent;
-
     }
   }
 
@@ -139,7 +137,7 @@
     cursor: pointer;
 
     &:hover {
-      background: hsla(154, 59%, 51%, 0.829); ;
+      background: hsla(154, 59%, 51%, 0.829);
     }
   }
 
