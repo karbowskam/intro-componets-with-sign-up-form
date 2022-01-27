@@ -21,7 +21,7 @@
     margin: 0 auto 55px;
     padding: 10px 23px;
     font-size: 16px;
-    font-family: "medium-font", Arial, Helvetica, sans-serif;
+    font-family: "regular-font", Arial, Helvetica, sans-serif;
     text-align: center;
     line-height: 27px;
   }
@@ -70,7 +70,7 @@
     border-radius: 5px;
     border: 1px $grayish-blue solid;
 
-    &--mail-js {
+    &--js {
       display: block;
       color: $red;
       font-size: 10px;
@@ -80,35 +80,6 @@
       font-style: italic;
     }
 
-    &--name-js {
-      display: block;
-      color: $red;
-      font-size: 10px;
-      text-align: right;
-      margin-right: 28px;
-      font-family: "regular-font", Arial, Helvetica, sans-serif;
-      font-style: italic;
-    }
-
-    &--lastname-js {
-      display: block;
-      color: $red;
-      font-size: 10px;
-      text-align: right;
-      margin-right: 28px;
-      font-family: "regular-font", Arial, Helvetica, sans-serif;
-      font-style: italic;
-    }
-
-    &--password-js {
-      display: block;
-      color: $red;
-      font-size: 10px;
-      text-align: right;
-      margin-right: 28px;
-      font-family: "regular-font", Arial, Helvetica, sans-serif;
-      font-style: italic;
-    }
 
     &--danger {
       border: 1px $red solid;
