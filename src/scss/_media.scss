@@ -70,3 +70,81 @@
     }
   }
 }
+
+@media screen and (min-width: 1250px) {
+  .body {
+    min-width: 1250px;
+    background-image: url(../img/bg-intro-desktop.png);
+  }
+
+  .main {
+    display: grid;
+    width: 1100px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header {
+    text-align: left;
+    padding: 0 20px 0 0;
+    margin: 0 0 20px;
+    font-size: 46px;
+
+    &__paragraph {
+      text-align: left;
+      padding: 0;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  .blue-box {
+    width: 450px;
+    height: 55px;
+    margin: 50px auto 20px;
+
+    &__paragraph {
+      font-size: 14px;
+      padding: 13px 0;
+      margin: auto;
+    }
+  }
+
+  .form {
+    width: 450px;
+
+    &__input {
+      margin: 14px auto 5px;
+      width: 400px;
+      height: 45px;
+      font-size: 13px;
+
+      &--danger {
+        background-position: 355px 13px;
+        background-size: 20px;
+      }
+
+      &--js {
+        font-size: 11px;
+      }
+    }
+
+    &__button {
+      width: 400px;
+      margin: 12px auto;
+      height: 48px;
+    }
+
+    &__confirm {
+      font-size: 12px;
+    }
+  }
+}
+
