@@ -1,6 +1,7 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
   .body {
-    min-width: 800px;
+    min-width: 750px;
+    background-image: url(../img/bg-intro-desktop.png);
   }
 
   .main {
@@ -66,6 +67,160 @@
 
     &__confirm {
       font-size: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .body {
+    min-width: 1250px;
+    background-image: url(../img/bg-intro-desktop.png);
+  }
+
+  .main {
+    display: grid;
+    width: 1100px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header {
+    text-align: left;
+    padding: 0 20px 0 0;
+    margin: 0 0 20px;
+    font-size: 46px;
+
+    &__paragraph {
+      text-align: left;
+      padding: 0;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  .blue-box {
+    width: 450px;
+    height: 55px;
+    margin: 50px auto 20px;
+
+    &__paragraph {
+      font-size: 14px;
+      padding: 13px 0;
+      margin: auto;
+    }
+  }
+
+  .form {
+    width: 450px;
+
+    &__input {
+      margin: 14px auto 5px;
+      width: 400px;
+      height: 45px;
+      font-size: 13px;
+
+      &--danger {
+        background-position: 355px 13px;
+        background-size: 20px;
+      }
+
+      &--js {
+        font-size: 11px;
+      }
+    }
+
+    &__button {
+      width: 400px;
+      margin: 12px auto;
+      height: 48px;
+    }
+
+    &__confirm {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .body {
+    min-width: 1650px;
+    background-image: url(../img/bg-intro-desktop.png);
+  }
+
+  .main {
+    display: grid;
+    width: 1350px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header {
+    text-align: left;
+    padding: 0 20px 0 0;
+    margin: 0 0 20px;
+    font-size: 67px;
+
+    &__paragraph {
+      text-align: left;
+      padding: 0;
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+
+  .blue-box {
+    width: 490px;
+    height: 73px;
+    margin: 50px auto 20px;
+
+    &__paragraph {
+      font-size: 19px;
+      padding: 23px 0;
+      margin: auto;
+    }
+  }
+
+  .form {
+    width: 490px;
+
+    &__input {
+      margin: 14px auto 5px;
+      width: 450px;
+      height: 55px;
+      font-size: 17px;
+
+      &--danger {
+        background-position: 400px 14px;
+        background-size: 25px;
+      }
+
+      &--js {
+        font-size: 13px;
+      }
+    }
+
+    &__button {
+      width: 450px;
+      margin: 12px auto;
+      height: 60px;
+    }
+
+    &__confirm {
+      font-size: 14px;
     }
   }
 }
